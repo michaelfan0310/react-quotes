@@ -32,7 +32,22 @@ const quotes=[
     id: 6, 
     name: "Nelson Mandela",
     imgURL: "https://upload.wikimedia.org/wikipedia/commons/0/02/Nelson_Mandela_1994.jpg",
-    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall. ."}
+    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall. ."},
+     {
+    id: 7, 
+    name: "James Cameron",
+    imgURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/James_Cameron_by_Gage_Skidmore.jpg/440px-James_Cameron_by_Gage_Skidmore.jpg",
+    quote: "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success."},
+     {
+    id: 8, 
+    name: "Friedrich Nietzsche",
+         imgURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/440px-Nietzsche187a.jpg",
+    quote: "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you. "},
+    {
+    id: 9, 
+    name: "Friedrich Nietzsche",
+         imgURL: "https://hadikarimi.com/wp-content/uploads/2019/04/Nietzsche2.jpg",
+    quote: " That which does not kill us makes us stronger.    The lonely one offers his hand too quickly to whomever he encounters."}
 ];
 
 export default quotes;
