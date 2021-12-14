@@ -1,22 +1,22 @@
 import React from "react";
 import Card from "./card";
-import contact from "./contacts";
+import quote from "./quotes";
 
-function createCard(contact){
+function createCard(quote){
     return (
         <Card
-        key ={contact.id}
-        name= {contact.name}
-        img={contact.imgURL}
-        quote={contact.quote}  />
+        key ={quote.id}
+        name= {quote.name}
+        img={quote.imgURL}
+        quote={quote.quote}  />
     );
 }
 function App() {
-    console.log(contact);
+    console.log(quote);
   return(
     <div>
       <h1 className="heading">Quotes</h1>
-          {contact.map(createCard)}     
+          {quote.map(createCard)}     
       </div>
 
   );

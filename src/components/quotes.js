@@ -1,4 +1,4 @@
-const contacts=[
+const quotes=[
 {   id: 1, 
     name:  " Bertrand Russell",
     imgURL: "https://media.gettyimages.com/photos/10101958london-england-puffing-contently-on-his-pipe-famed-bertrand-picture-id514675100?k=20&m=514675100&s=612x612&w=0&h=yjxKVQj1M2TqUvwCrFA2y41rZesIbcUXng8vNbTFPcI=",
@@ -22,8 +22,17 @@ const contacts=[
     name: "Mark Twain",
     imgURL: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnoXl3nyxXSU2SZclr-miLFu7CttEwWKdWzZpwY2q9ATc2Amoclpg5n1ghgw",
     quote: "Courage is resistance to fear, mastery of fear - not absence of fear.."
-
-}
+},
+ {
+    id: 5, 
+    name: "Robert T. Bennett",
+    imgURL: "https://upload.wikimedia.org/wikipedia/commons/7/72/Robert_T._Bennett.jpg",
+    quote: "Be thankful for everything that happens in your life; it’s all an experience."},
+ {
+    id: 6, 
+    name: "Nelson Mandela",
+    imgURL: "https://upload.wikimedia.org/wikipedia/commons/0/02/Nelson_Mandela_1994.jpg",
+    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall. ."}
 ];
 
-export default contacts;
+export default quotes;

@@ -7,21 +7,24 @@ import './card.css';
 function Card(props){
 return (
     <div>
-       
+       <dl className="dictionary">
         <div className="card">
             <div className="top">
-            
-                <h2 className="name">{props.name}</h2>
+            <dt>
+                <h2 className="name">{props.name}</h2></dt>
                 <Avatar img={props.img}/>
             </div>
             <div className="bottom">
+              <dd>
               <Detail 
                 detailInfo={props.quote}
                />
+               </dd>
              
                 
             </div>
         </div>
+        </dl>
     </div>
 );
 }
