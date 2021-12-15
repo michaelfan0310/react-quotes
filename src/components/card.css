@@ -31,7 +31,7 @@ body {
   background-color: #81ecec;
   margin: 50px 0;
   height: 200px;
-  box-shadow: 0 2px 5px rgba(241, 234, 234, 0.945);
+  box-shadow: 0 2px 6px rgba(238, 232, 232, 0.966);
   text-align: left; 
   max-width: 400px;
   min-width: 400px;
@@ -58,15 +58,15 @@ body {
 }
 
 .card img {
-  margin: 30px 20px 0 0;
+  margin: 20px 55px 0 0;
 }
 
 .circle-img {
   border-radius: 50%;
-  border: 7px solid #fff;
+  border: 7px solid rgb(255, 255, 255);
   text-overflow: 2px;
-  width: 120px;
-  height: 120px;
+  width: 125px;
+  height: 125px;
 }
 
 .bottom {
@@ -78,4 +78,5 @@ body {
   padding-top: 20px;
   color: #034141;
   font-size: 1.1rem;
+  margin-left: -18px;
 }

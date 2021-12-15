@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./card";
 import quote from "./quotes";
 import "./App.css";
-// import VideoRoom from "./VideoRoom.js";
+import VideoRoom from "./VideoRoom.js";
 
 function createCard(quote){
     return (
@@ -20,7 +20,7 @@ function App() {
       <h1 className="heading">Quotes</h1>
           {quote.map(createCard)}     
       </div>
-      {/* <VideoRoom /> */}
+      <VideoRoom />
 </div>
   );
 }

@@ -1,21 +1,14 @@
 {
   "files": {
-    "main.css": "/react-quotes/static/css/main.e18a46f2.chunk.css",
-    "main.js": "/react-quotes/static/js/main.f6f6efc9.chunk.js",
-    "main.js.map": "/react-quotes/static/js/main.f6f6efc9.chunk.js.map",
-    "runtime-main.js": "/react-quotes/static/js/runtime-main.e9815184.js",
-    "runtime-main.js.map": "/react-quotes/static/js/runtime-main.e9815184.js.map",
-    "static/js/2.58a8be01.chunk.js": "/react-quotes/static/js/2.58a8be01.chunk.js",
-    "static/js/2.58a8be01.chunk.js.map": "/react-quotes/static/js/2.58a8be01.chunk.js.map",
+    "main.css": "/react-quotes/static/css/main.15b6b513.css",
+    "main.js": "/react-quotes/static/js/main.51133a6e.js",
+    "static/media/dario.jpg": "/react-quotes/static/media/dario.aa521122a43c94b4c1b5.jpg",
     "index.html": "/react-quotes/index.html",
-    "static/css/main.e18a46f2.chunk.css.map": "/react-quotes/static/css/main.e18a46f2.chunk.css.map",
-    "static/js/2.58a8be01.chunk.js.LICENSE.txt": "/react-quotes/static/js/2.58a8be01.chunk.js.LICENSE.txt",
-    "static/media/card.css": "/react-quotes/static/media/dario.aa521122.jpg"
+    "main.15b6b513.css.map": "/react-quotes/static/css/main.15b6b513.css.map",
+    "main.51133a6e.js.map": "/react-quotes/static/js/main.51133a6e.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9815184.js",
-    "static/js/2.58a8be01.chunk.js",
-    "static/css/main.e18a46f2.chunk.css",
-    "static/js/main.f6f6efc9.chunk.js"
+    "static/css/main.15b6b513.css",
+    "static/js/main.51133a6e.js"
   ]
 }
