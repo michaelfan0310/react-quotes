@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-quotes/static/css/main.f9d220ba.css",
-    "main.js": "/react-quotes/static/js/main.6a3ad2ad.js",
+    "main.css": "/react-quotes/static/css/main.aa852eb4.css",
+    "main.js": "/react-quotes/static/js/main.7fd885d4.js",
     "static/media/Teheran.mp4": "/react-quotes/static/media/Teheran.edf5592b748363c6d05c.mp4",
     "static/media/MichaelBub.mp4": "/react-quotes/static/media/MichaelBub.9280869ae5d5960eb8a5.mp4",
     "static/media/dario.jpg": "/react-quotes/static/media/dario.aa521122a43c94b4c1b5.jpg",
     "index.html": "/react-quotes/index.html",
-    "main.f9d220ba.css.map": "/react-quotes/static/css/main.f9d220ba.css.map",
-    "main.6a3ad2ad.js.map": "/react-quotes/static/js/main.6a3ad2ad.js.map"
+    "main.aa852eb4.css.map": "/react-quotes/static/css/main.aa852eb4.css.map",
+    "main.7fd885d4.js.map": "/react-quotes/static/js/main.7fd885d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9d220ba.css",
-    "static/js/main.6a3ad2ad.js"
+    "static/css/main.aa852eb4.css",
+    "static/js/main.7fd885d4.js"
   ]
 }

@@ -49,11 +49,11 @@ const quotes=[
     name: "Robert T. Bennett",
     imgURL: "https://upload.wikimedia.org/wikipedia/commons/7/72/Robert_T._Bennett.jpg",
     quote: "Be thankful for everything that happens in your life; it’s all an experience."},
-    {
-    id: 10, 
-    name: "William Shakespeare",
-    imgURL: "https://www.biography.com/.image/t_share/MTE1ODA0OTcxNzgzMzkwNzMz/william-shakespeare-194895-1-402.jpg",
-    quote: "I am not bound to please thee with my answer. Expectation is the root of all heartache. Better three hours too soon than a minute too late."}
+    // {
+    // id: 10, 
+    // name: "William Shakespeare",
+    // imgURL: "https://www.biography.com/.image/t_share/MTE1ODA0OTcxNzgzMzkwNzMz/william-shakespeare-194895-1-402.jpg",
+    // quote: "I am not bound to please thee with my answer. Expectation is the root of all heartache. Better three hours too soon than a minute too late."}
 ];
 
 export default quotes;

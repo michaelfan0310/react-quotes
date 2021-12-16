@@ -1,6 +1,6 @@
 import React from "react";
 
-import video from '../Video/MichaelBub.mp4';
+import video2 from '../Video/MichaelBub.mp4';
 
 function VideoRoom2(){
     return(
@@ -8,8 +8,8 @@ function VideoRoom2(){
         <div className="card2">
         
 
-       <video className="video2" controls autoPlay loop muted>
-          <source src={video} type="video/mp4" >
+       <video controls autoPlay loop muted className="video2" >
+          <source src={video2} type="video/mp4" >
           </source>
          <source src="movie.ogg" type="video/ogg">
         </source>
