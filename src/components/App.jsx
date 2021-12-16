@@ -21,7 +21,7 @@ function App() {
   return(<div>
     <div>
     
-      <h1 className="heading">My<Avatar2 /> Palette</h1></div>
+      <h1 className="heading">Michael's <Avatar2 /> Palette</h1></div>
 
        <div>
       <VideoRoom />

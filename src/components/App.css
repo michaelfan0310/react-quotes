@@ -55,12 +55,13 @@ video, .video2{
   top: 2%;
 }
 img {
-  margin: 20px 20px -30px 25px;
+  margin: 20px 20px -20px 20px;
 }
 .circle-img2 {
+  
   border-radius: 50%;
-  border: 7px solid rgb(255, 255, 255);
+  border: 5px solid rgb(255, 255, 255);
   text-overflow: 2px;
-  width: 135px;
-  height: 125px;
+  width: 85px;
+  height: 79px;
 }

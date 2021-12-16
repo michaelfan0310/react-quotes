@@ -1,6 +1,6 @@
 import React from "react";
 
-import video3 from '../Video/OutOfAfrica.mp4';
+import video3 from '../Video/OutAf.mp4';
 
 function VideoRoom3(){
     return(
