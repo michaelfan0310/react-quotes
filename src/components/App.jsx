@@ -21,8 +21,13 @@ function App() {
       <h1 className="heading">Quotes</h1>
           {quote.map(createCard)}     
       </div>
+      <div>
       <VideoRoom />
       <VideoRoom2 />
+      </div>
+      <div className="pointer">
+      <h5> <a href="https://michaelfan0310.github.io/react-kitchen/">React-Kitchen</a></h5>
+      </div>
 </div>
   );
 }
