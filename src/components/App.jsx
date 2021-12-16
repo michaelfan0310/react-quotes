@@ -3,6 +3,7 @@ import Card from "./card";
 import quote from "./quotes";
 import "./App.css";
 import VideoRoom from "./VideoRoom.js";
+import VideoRoom2 from "./VideoRoom2.js";
 
 function createCard(quote){
     return (
@@ -21,6 +22,7 @@ function App() {
           {quote.map(createCard)}     
       </div>
       <VideoRoom />
+      <VideoRoom2 />
 </div>
   );
 }
