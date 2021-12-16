@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/react-quotes/static/css/main.aa852eb4.css",
-    "main.js": "/react-quotes/static/js/main.7fd885d4.js",
+    "main.css": "/react-quotes/static/css/main.a5414385.css",
+    "main.js": "/react-quotes/static/js/main.8e97381f.js",
+    "static/media/OutOfAfrica.mp4": "/react-quotes/static/media/OutOfAfrica.bf5d19485ddb0af5dd1d.mp4",
     "static/media/Teheran.mp4": "/react-quotes/static/media/Teheran.edf5592b748363c6d05c.mp4",
     "static/media/MichaelBub.mp4": "/react-quotes/static/media/MichaelBub.9280869ae5d5960eb8a5.mp4",
     "static/media/dario.jpg": "/react-quotes/static/media/dario.aa521122a43c94b4c1b5.jpg",
+    "static/media/michael.png": "/react-quotes/static/media/michael.3efdc0f02031b02cc25b.png",
     "index.html": "/react-quotes/index.html",
-    "main.aa852eb4.css.map": "/react-quotes/static/css/main.aa852eb4.css.map",
-    "main.7fd885d4.js.map": "/react-quotes/static/js/main.7fd885d4.js.map"
+    "main.a5414385.css.map": "/react-quotes/static/css/main.a5414385.css.map",
+    "main.8e97381f.js.map": "/react-quotes/static/js/main.8e97381f.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa852eb4.css",
-    "static/js/main.7fd885d4.js"
+    "static/css/main.a5414385.css",
+    "static/js/main.8e97381f.js"
   ]
 }
