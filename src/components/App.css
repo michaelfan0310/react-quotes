@@ -31,7 +31,7 @@ body {
 video, .video2{
   margin-top: -46px;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: -20px;
   align-items: center;
   width:100%;
   position: relative;
@@ -51,6 +51,7 @@ video, .video2{
   align-items: center;
   color: antiquewhite;
   position: relative;  
+  z-index: 9;
   text-decoration: none;
   top: 2%;
 }

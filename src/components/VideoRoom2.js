@@ -1,6 +1,6 @@
 import React from "react";
 
-import video2 from '../Video/MichaelBub.mp4';
+import video2 from '../Video/Michael.mp4';
 
 function VideoRoom2(){
     return(
