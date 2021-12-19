@@ -13,6 +13,7 @@ return (
             <dt>
                 <h2 className="name">{props.name}</h2></dt>
                 <Avatar img={props.img}/>
+                {/* <button class="btn"></button> */}
             </div>
             <div className="bottom">
               <dd>
