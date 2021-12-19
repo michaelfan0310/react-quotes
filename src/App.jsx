@@ -18,7 +18,8 @@ function createCard(quote){
         key ={quote.id}
         name= {quote.name}
         img={quote.imgURL}
-        quote={quote.quote}  
+        quote={quote.quote} 
+        quote2={quote.quote2} 
         // onClick={}
         />
     );

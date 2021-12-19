@@ -55,6 +55,8 @@ body {
   display: flex;
   flex: 1;
   margin: 10% 20px 0;
+  position: relative;
+  z-index: 1;
 }
 
 .card img {
@@ -79,4 +81,35 @@ body {
   color: #034141;
   font-size: 1.1rem;
   margin-left: -18px;
+}
+
+button {
+    -webkit-appearance: button-bevel;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: #f1f8f8;
+    
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: -2px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: justify;
+    align-items: flex-start;
+    cursor: pointer;
+    background-color: #00cecb00;
+    box-sizing: content-box;
+    margin: -7px -2em;
+    font: 700 15px system-ui;
+    padding: -9px -5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #00cecb00;
+    border-image: initial;
+    position: relative;
+    z-index: 0;
+   left: -30%;
+   top: 67%;
+    
 }
