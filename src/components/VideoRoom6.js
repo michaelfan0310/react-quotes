@@ -14,7 +14,7 @@ function VideoRoom6(){
          <source src="movie.ogg" type="video/ogg">
         </source>
         </video>
-       
+      
         </div>
         </div>
     );
