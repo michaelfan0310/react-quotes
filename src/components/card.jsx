@@ -12,6 +12,20 @@ function Card(props){
         const quoteNew=props.quote2;
         setQuote(quoteNew);        
     }
+
+    function switchCardBack(){
+        
+        setQuote(quoteOriginal);        
+    }
+  
+// const [isMousedOver, setMouseOver] = useState(false);
+
+//  function handleMouseOver() {
+//     setMouseOver(true);
+//   }
+//    function handleMouseOut() {
+//     setMouseOver(false);
+//   }
 return (
     <div>
        <dl className="dictionary">
@@ -20,7 +34,19 @@ return (
             <dt>
                 <h2 className="name">{props.name}</h2></dt>
                 <Avatar img={props.img}/>
-                <button onClick={switchCard}>Switch</button>
+                <button               
+                onClick={switchCardBack}       
+                >Q2
+                </button>
+
+                <button               
+                onClick={switchCard}     
+                >Q1
+                </button>
+                {/* <button               
+                onClick={switchCard}     
+                >Q3
+                </button> */}
             </div>
             <div className="bottom">
               <dd>
