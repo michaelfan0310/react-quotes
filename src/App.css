@@ -51,6 +51,17 @@ video, .video2{
   position: relative;
   z-index: 9;
 }
+.video4{
+  margin-top: -16px;
+ padding-left: -13%;
+ margin-left: -20%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  width:100%;
+  position: relative;
+  z-index: 2;
+}
 
 .pointer {
   align-items: center;
@@ -75,7 +86,21 @@ img {
 #vbutton {
   position: relative;
   z-index: 2;
-  color: rgba(255, 255, 255, 0.842);
-  left: -30%;
+  color: rgba(255, 255, 255, 0.342);
+  left: -65%;
    top: 7%;
-}
+} 
+ #vbutton2 {
+  position: relative;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.342);
+  left: -45%;
+   top: 7%;
+} 
+ #vbutton3 {
+  position: relative;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.342);
+  left: -25%;
+   top: 7%;
+} 
