@@ -1,5 +1,5 @@
 
-import React, {useState, useEffect,useRef} from "react";
+import React, {useState} from "react";
 
 import video1 from '../Video/1900.mp4';
 import video2 from '../Video/19002.mp4';
