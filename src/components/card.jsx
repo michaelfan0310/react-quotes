@@ -47,12 +47,12 @@ return (
                 <Avatar img={props.img}/>
                 <button               
                 onClick={switchCard}       
-                >Q2
+                >S2
                 </button>
 
                 <button               
                 onClick={switchQuote}     
-                >Q1
+                >Switch
                 </button>
                 {/* <button               
                 onClick={switchCard}     

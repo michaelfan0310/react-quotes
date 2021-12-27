@@ -43,13 +43,17 @@ const quotes=[
 
 },   {
     id: 5, 
-    name: "Mark Twain",
-    imgURL: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnoXl3nyxXSU2SZclr-miLFu7CttEwWKdWzZpwY2q9ATc2Amoclpg5n1ghgw",
-    quote: "Courage is resistance to fear, mastery of fear - not absence of fear..",
-    quote2: "Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.",
-    quote3: "Age is an issue of mind over matter. If you don't mind, it doesn't matter. ",
+    name: " Plato   ",
+    imgURL: "https://images.gr-assets.com/authors/1393978633p5/879.jpg",
+
+    quote: "I am the wisest man alive, for I know one thing, and that is that I know nothing.",
+
+    quote2: "Only the dead have seen the end of war.",
+
+    quote3: "Love is a serious mental disease.",
     
-    quote4: "All you need in this life is ignorance and confidence, and then success is sure."
+    quote4: "I'm trying to think, don't confuse me with facts."
+    
 },
  {
     id: 6,
@@ -83,22 +87,32 @@ const quotes=[
     quote3: "If you set your goals ridiculously high and its a failure, you will fail above everyone elses success.",
     
     quote4: "Curiosity is the most powerful thing you own"},
+     {
+    id: 9,
+    name: "Mark Twain",
+    imgURL: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnoXl3nyxXSU2SZclr-miLFu7CttEwWKdWzZpwY2q9ATc2Amoclpg5n1ghgw",
+    quote: "Courage is resistance to fear, mastery of fear - not absence of fear..",
+    quote2: "Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.",
+    quote3: "Age is an issue of mind over matter. If you don't mind, it doesn't matter. ",
+    
+    quote4: "All you need in this life is ignorance and confidence, and then success is sure." 
+    },
      
     
-    {
-    id: 9, 
-    name: "Robert T. Bennett",
-    imgURL: "https://upload.wikimedia.org/wikipedia/commons/7/72/Robert_T._Bennett.jpg",
-
-    quote: "Be thankful for everything that happens in your life; it’s all an experience.",
-
-    quote2: "Take responsibility of your own happiness, never put it in other people’s hands.",
-
-    quote3: "Respect other people's feelings. It might mean nothing to you, but it could mean everything to them.",
-    
-    quote4: "Instead of worrying about what you cannot control, shift your energy to what you can create."}
     // {
     // id: 10, 
+    // name: "Robert T. Bennett",
+    // imgURL: "https://upload.wikimedia.org/wikipedia/commons/7/72/Robert_T._Bennett.jpg",
+
+    // quote: "Be thankful for everything that happens in your life; it’s all an experience.",
+
+    // quote2: "Take responsibility of your own happiness, never put it in other people’s hands.",
+
+    // quote3: "Respect other people's feelings. It might mean nothing to you, but it could mean everything to them.",
+    
+    // quote4: "Instead of worrying about what you cannot control, shift your energy to what you can create."}
+    // {
+    // id: 11, 
     // name: "William Shakespeare",
     // imgURL: "https://www.biography.com/.image/t_share/MTE1ODA0OTcxNzgzMzkwNzMz/william-shakespeare-194895-1-402.jpg",
     // quote: "I am not bound to please thee with my answer. Expectation is the root of all heartache. Better three hours too soon than a minute too late."}

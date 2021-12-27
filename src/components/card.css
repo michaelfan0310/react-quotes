@@ -32,7 +32,7 @@ body {
   margin: 50px 0;
   height: 200px;
   box-shadow: 0 2px 6px rgba(238, 232, 232, 0.966);
-  text-align: left; 
+  text-align: start; 
   max-width: 400px;
   min-width: 400px;
 }
@@ -57,10 +57,11 @@ body {
   margin: 10% 20px 0;
   position: relative;
   z-index: 1;
+  width: 35%;
 }
 
 .card img {
-  margin: 20px 55px 0 0;
+  margin: 20px 30px 0 -40px;
 }
 
 .circle-img {
@@ -101,16 +102,16 @@ button {
     cursor: pointer;
     background-color: #00cecb00;
     box-sizing: content-box;
-    margin: -7px -2em;
+    margin: -17px -2.7em;
     font: 700 15px system-ui;
-    padding: -9px -5px;
+    padding: -19px -6px;
     border-width: 1px;
     border-style: solid;
     border-color: #00cecb00;
     border-image: initial;
     position: relative;
     z-index: 0;
-   left: -24%;
+   left: -10%;
    top: 67%;
     
 }
