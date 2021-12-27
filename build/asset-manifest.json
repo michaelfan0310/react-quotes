@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-quotes/static/css/main.6b2a277c.css",
-    "main.js": "/react-quotes/static/js/main.07dc5210.js",
+    "main.js": "/react-quotes/static/js/main.ea8b993b.js",
     "static/media/OutAf.mp4": "/react-quotes/static/media/OutAf.bf5d19485ddb0af5dd1d.mp4",
     "static/media/Teheran.mp4": "/react-quotes/static/media/Teheran.edf5592b748363c6d05c.mp4",
     "static/media/19003.mp4": "/react-quotes/static/media/19003.b336ee065071f01e8431.mp4",
@@ -15,10 +15,10 @@
     "static/media/michael.png": "/react-quotes/static/media/michael.3efdc0f02031b02cc25b.png",
     "index.html": "/react-quotes/index.html",
     "main.6b2a277c.css.map": "/react-quotes/static/css/main.6b2a277c.css.map",
-    "main.07dc5210.js.map": "/react-quotes/static/js/main.07dc5210.js.map"
+    "main.ea8b993b.js.map": "/react-quotes/static/js/main.ea8b993b.js.map"
   },
   "entrypoints": [
     "static/css/main.6b2a277c.css",
-    "static/js/main.07dc5210.js"
+    "static/js/main.ea8b993b.js"
   ]
 }
