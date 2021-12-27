@@ -6,11 +6,11 @@ import video2 from '../Video/Schind.mp4';
 
 function VideoRoom2(){
     const [video, setVideo]=useState(video1);
-    const [toggle,setToggle]=useState(false);
+    const [tog,setTog]=useState(false);
 
        function SwitchClip(){
-           setToggle(!toggle);
-           if(!toggle){
+           setTog(!tog);
+           if(!tog){
            setVideo(video2);}else{
                setVideo(video1);
            }
