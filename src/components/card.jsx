@@ -31,7 +31,8 @@ function Card(props){
 
         if(!toggle){
         setQuote(quoteAdd);
-        $('.bottom').css('color','red');}
+        // $('.bottom').css('color','red');
+    }
         else{setQuote(quoteAdd2);} 
          
     }

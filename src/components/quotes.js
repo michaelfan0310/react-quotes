@@ -37,9 +37,9 @@ const quotes=[
     imgURL: "https://media.istockphoto.com/photos/aristotle-sculpture-picture-id1217329715?k=20&m=1217329715&s=612x612&w=0&h=mDbQ85HdQMBYous01IJPRfywQlJa8LTf-FlvYk6nrXU=",
     quote: "Melancholy men are of all others the most witty.",
     quote2: "Knowing yourself is the beginning of all wisdom.",
-    quote3: "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you. ",
+    quote3: "Hope is a waking dream ",
     
-    quote4: "Without music, life would be a mistake.    It is not a lack of love, but a lack of friendship that makes unhappy marriages."
+    quote4: "No great mind has ever existed without a touch of madness."
 
 },   {
     id: 5, 
@@ -47,9 +47,9 @@ const quotes=[
     imgURL: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnoXl3nyxXSU2SZclr-miLFu7CttEwWKdWzZpwY2q9ATc2Amoclpg5n1ghgw",
     quote: "Courage is resistance to fear, mastery of fear - not absence of fear..",
     quote2: "Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.",
-    quote3: "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you. ",
+    quote3: "Age is an issue of mind over matter. If you don't mind, it doesn't matter. ",
     
-    quote4: "Without music, life would be a mistake.    It is not a lack of love, but a lack of friendship that makes unhappy marriages."
+    quote4: "All you need in this life is ignorance and confidence, and then success is sure."
 },
  {
     id: 6,
@@ -57,19 +57,22 @@ const quotes=[
     imgURL: "https://media.gettyimages.com/photos/10101958london-england-puffing-contently-on-his-pipe-famed-bertrand-picture-id514675100?k=20&m=514675100&s=612x612&w=0&h=yjxKVQj1M2TqUvwCrFA2y41rZesIbcUXng8vNbTFPcI=",
     quote:"We are faced with the paradoxical fact that education has become one of the chief obstacles to intelligence and freedom of thought." ,
     quote2: "The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts.",
-    quote3: "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you. ",
+
+    quote3: "Fear is the main source of superstition, and one of the main sources of cruelty. To conquer fear is the beginning of wisdom. ",
     
-    quote4: "Without music, life would be a mistake.    It is not a lack of love, but a lack of friendship that makes unhappy marriages."
+    quote4: "Collective fear stimulates herd instinct, and tends to produce ferocity toward those who are not regarded as members of the herd."
     },
  {
     id: 7, 
     name: "Nelson Mandela",
     imgURL: "https://upload.wikimedia.org/wikipedia/commons/0/02/Nelson_Mandela_1994.jpg",
-    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall. .",
+
+    quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+
     quote2: "It always seems impossible until it's done.",
-    quote3: "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you. ",
+    quote3: "I like friends who have independent minds because they tend to make you see problems from all angles.",
     
-    quote4: "Without music, life would be a mistake.    It is not a lack of love, but a lack of friendship that makes unhappy marriages."},
+    quote4: "Everyone can rise above their circumstances and achieve success if they are dedicated to and passionate about what they do."},
      {
     id: 8, 
     name: "James Cameron",
@@ -77,9 +80,9 @@ const quotes=[
     quote: "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.",
     quote2: "Imagination is a force that can actually manifest a reality.Don't put limitations on yourself.Others will do that for you.",
    
-    quote3: "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you. ",
+    quote3: "If you set your goals ridiculously high and its a failure, you will fail above everyone elses success.",
     
-    quote4: "Without music, life would be a mistake.    It is not a lack of love, but a lack of friendship that makes unhappy marriages."},
+    quote4: "Curiosity is the most powerful thing you own"},
      
     
     {
@@ -88,10 +91,12 @@ const quotes=[
     imgURL: "https://upload.wikimedia.org/wikipedia/commons/7/72/Robert_T._Bennett.jpg",
 
     quote: "Be thankful for everything that happens in your life; it’s all an experience.",
+
     quote2: "Take responsibility of your own happiness, never put it in other people’s hands.",
-    quote3: "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you. ",
+
+    quote3: "Respect other people's feelings. It might mean nothing to you, but it could mean everything to them.",
     
-    quote4: "Without music, life would be a mistake.    It is not a lack of love, but a lack of friendship that makes unhappy marriages."}
+    quote4: "Instead of worrying about what you cannot control, shift your energy to what you can create."}
     // {
     // id: 10, 
     // name: "William Shakespeare",
