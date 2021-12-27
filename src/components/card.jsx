@@ -6,26 +6,36 @@ import './card.css';
 
 function Card(props){
     const quoteOriginal=props.quote;
+    const quoteAdd=props.quote3;
+    const [toggle, setToggle]=useState(false);
     const [quote, setQuote]=useState(quoteOriginal);
+    
+    // const [card, setCard]=useState({
+    //     name:props.name,
+    //     img:props.img,
+    //     quote:quote
+    // });
 
-    function switchCard(){
+    function switchQuote(){
         const quoteNew=props.quote2;
-        setQuote(quoteNew);        
+        setToggle(!toggle);
+        { if (!toggle){
+        setQuote(quoteNew);  }
+    else if(toggle) {setQuote(quoteOriginal); }}      
     }
-
-    function switchCardBack(){
+    
+    function switchCard(){
         
-        setQuote(quoteOriginal);        
-    }
-  
-// const [isMousedOver, setMouseOver] = useState(false);
+        const quoteAdd2=props.quote4;
+        setToggle(!toggle);
 
-//  function handleMouseOver() {
-//     setMouseOver(true);
-//   }
-//    function handleMouseOut() {
-//     setMouseOver(false);
-//   }
+        if(!toggle){
+        setQuote(quoteAdd);
+        $('.bottom').css('color','red');}
+        else{setQuote(quoteAdd2);} 
+         
+    }
+
 return (
     <div>
        <dl className="dictionary">
@@ -35,12 +45,12 @@ return (
                 <h2 className="name">{props.name}</h2></dt>
                 <Avatar img={props.img}/>
                 <button               
-                onClick={switchCardBack}       
+                onClick={switchCard}       
                 >Q2
                 </button>
 
                 <button               
-                onClick={switchCard}     
+                onClick={switchQuote}     
                 >Q1
                 </button>
                 {/* <button               
@@ -49,13 +59,12 @@ return (
                 </button> */}
             </div>
             <div className="bottom">
-              <dd>
-              <Detail 
+              <dd >
+              <Detail
                 detailInfo={quote}
-               />
-               </dd>
-             
                 
+               />
+               </dd>           
             </div>
         </div>
         </dl>

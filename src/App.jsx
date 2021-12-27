@@ -20,6 +20,8 @@ function createCard(quote){
         img={quote.imgURL}
         quote={quote.quote} 
         quote2={quote.quote2} 
+        quote3={quote.quote3} 
+        quote4={quote.quote4} 
         // onClick={}
         />
     );
