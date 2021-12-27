@@ -11,7 +11,8 @@ function VideoRoom2(){
        function SwitchClip(){
            setTog(!tog);
            if(!tog){
-           setClip(clip2);}else{
+           setClip(clip2);
+        }else{
                setClip(clip1);
            }
        }

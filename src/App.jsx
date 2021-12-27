@@ -35,14 +35,14 @@ function App() {
 
        <div>
       <VideoRoom />
-      <VideoRoom2 />
+      <VideoRoom4 />
       <VideoRoom3 />
       </div>
       
       <div>
           {quote.map(createCard)}     
       </div>
-      <VideoRoom4 />
+      <VideoRoom2 />
       <VideoRoom5 />
       <VideoRoom6 />
       <div className="pointer">
