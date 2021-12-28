@@ -2,8 +2,8 @@ body {
   font-family: sans-serif;
   margin: 0 auto;
   padding: 25px;  
-  /* background-image: url("../images/dario.jpg"); */
-  background-color: rgba(57, 9, 88, 0.719);
+  background-image: url("../images/dario.jpg");
+  background-color: rgba(20, 20, 20, 0.932);
   text-align: center;
 }
 
@@ -12,7 +12,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 2% 3%;
-  max-width: 95%;  
+  max-width: 85%;  
   float: left;
 }
 
@@ -57,11 +57,13 @@ body {
   margin: 10% 20px 0;
   position: relative;
   z-index: 1;
-  width: 35%;
+  width: 30%;
 }
 
-.card img {
-  margin: 20px 30px 0 -40px;
+ .card img {
+  /* margin: 20px 30px 0 -40px; */
+  margin: 20px 110px 20px 0px;
+
 }
 
 .circle-img {
@@ -111,11 +113,11 @@ button {
     border-image: initial;
     position: relative;
     z-index: 0;
-   left: -10%;
+   left: -30%;
    top: 67%;
     
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 880px){
 
 body {
   font-family: sans-serif;
@@ -142,8 +144,28 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 1% 1%;
-  max-width: 75%;  
+  margin: 0.5%  0.5%;
+  max-width: 85%;  
+  float: left;
+}
+ .card2 {
+  border-radius: 25px;
+  position: relative;
+  padding: 20px 0px;
+  background-color: #282729f3;
+  margin: 20px 0 20px 0;
+  height: 180px;
+  box-shadow: 0 2px 6px rgba(238, 232, 232, 0.966);
+  /* text-align: left;  */
+  max-width: 280px;
+  min-width: 280px;
+}
+.dictionary2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0.5% 0.5%;
+  max-width: 85%;  
   float: left;
 }
 
