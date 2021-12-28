@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
   padding: 25px;  
   /* background-image: url("../images/dario.jpg"); */
-  /* background-color: black; */
+  background-color: rgba(57, 9, 88, 0.719);
   text-align: center;
 }
 
@@ -115,3 +115,16 @@ button {
    top: 67%;
     
 }
+@media only screen and (max-width: 600px){
+
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 20px;  
+  background-image: url("../images/dario.jpg");
+  background-color: rgba(57, 9, 88, 0.719);
+  text-align: center;
+}
+
+}
+  

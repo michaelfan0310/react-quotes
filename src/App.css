@@ -7,7 +7,7 @@ body {
   margin: 0 auto;
   padding: 25px;  
   background-image: url("./images/dario.jpg");
-  /* background-color: black; */
+  background-color: rgba(30, 9, 49, 0.767);
   text-align: center;
   
 }
@@ -111,3 +111,4 @@ img {
   left: -25%;
    top: 7%;
 }
+
