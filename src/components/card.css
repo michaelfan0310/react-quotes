@@ -126,5 +126,18 @@ body {
   text-align: center;
 }
 
+.card {
+  border-radius: 20px;
+  position: relative;
+  padding: 20px 10px;
+  background-color: #81ecec;
+  margin: 35px 0;
+  height: 180px;
+  box-shadow: 0 2px 6px rgba(238, 232, 232, 0.966);
+  text-align: start; 
+  max-width: 400px;
+  min-width: 400px;
+}
+
 }
   
