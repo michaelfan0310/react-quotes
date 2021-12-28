@@ -122,7 +122,7 @@ body {
   margin: 0 auto;
   padding: 20px;  
   background-image: url("../images/dario.jpg");
-  background-color: rgba(57, 9, 88, 0.719);
+  background-color: rgba(30, 28, 31, 0.863);
   text-align: center;
 }
 
@@ -131,7 +131,7 @@ body {
   position: relative;
   padding: 20px 10px;
   background-color: #81ecec;
-  margin: 35px 0;
+  margin: 25px 0;
   height: 180px;
   box-shadow: 0 2px 6px rgba(238, 232, 232, 0.966);
   text-align: start; 
