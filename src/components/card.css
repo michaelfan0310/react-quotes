@@ -120,19 +120,14 @@ button {
 @media only screen and (max-width: 880px){
 
 body {
-  font-family: sans-serif;
-  margin: 0 auto;
-  padding: 20px;  
   background-image: url("../images/dario.jpg");
   background-color: rgba(27, 27, 27, 0.863);
-  text-align: center;
 }
 
 .card {
   border-radius: 20px;
   position: relative;
   padding: 20px 0px;
-  background-color: #81ecec;
   margin: 20px 0;
   height: 180px;
   box-shadow: 0 2px 6px rgba(238, 232, 232, 0.966);
@@ -145,11 +140,11 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0.5%  0.5%;
-  max-width: 85%;  
+  max-width: 80%;  
   float: left;
 }
  .card2 {
-  border-radius: 25px;
+  border-radius: 20px;
   position: relative;
   padding: 20px 0px;
   background-color: #282729f3;
@@ -165,8 +160,32 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0.5% 0.5%;
-  max-width: 85%;  
+  max-width: 80%;  
   float: left;
+}
+button {  
+   left: -80%; 
+   top: 50%;
+   }
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid rgb(255, 255, 255);
+  text-overflow: 1px;
+  width: 95px;
+  height: 95px;
+}
+.bottom {
+  position: relative;
+  z-index: 3;
+  margin-top: 80px;
+  color: #034141;
+}
+.info {
+  margin-top: 40px;
+  padding-top: 20px;
+  color: #034141;
+  font-size: 1.1rem;
+  margin-left: -18px;
 }
 
 }

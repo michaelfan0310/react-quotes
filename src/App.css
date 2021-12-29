@@ -51,7 +51,7 @@ video, .video2{
   position: relative;
   z-index: 9;
 }
-.video4{
+.video1900{
   margin-top: -16px;
  padding-left: -20%;
  margin-left: -35%;
@@ -112,9 +112,39 @@ img {
    top: 7%;
 }
 
-@media only screen and(max-width: 880px) {
-  .card2 {
-  border-radius: 25px;
+@media only screen and (max-width: 880px){
+
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 20px;  
+  background-image: url("./images/dario.jpg");
+  background-color: rgba(27, 27, 27, 0.863);
+  text-align: center;
+}
+
+.card {
+  border-radius: 20px;
+  position: relative;
+  padding: 20px 0px;
+  background-color: #81ecec;
+  margin: 20px 0;
+  height: 180px;
+  box-shadow: 0 2px 6px rgba(238, 232, 232, 0.966);
+  text-align: start; 
+  max-width: 280px;
+  min-width: 280px;
+}
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0.5%  0.5%;
+  max-width: 80%;  
+  float: left;
+}
+ .card2 {
+  border-radius: 20px;
   position: relative;
   padding: 20px 0px;
   background-color: #282729f3;
@@ -129,8 +159,36 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0.5%  0.5%;
-  max-width: 85%;  
+  margin: 0.5% 0.5%;
+  max-width: 80%;  
   float: left;
+}
+.video1900{
+  margin-top: -16px;
+ padding-left: -22%;
+ margin-left: -49%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  width:100%;
+  position: relative;
+  z-index: 9;
+}
+
+#vbutton { 
+  left: -80%;   
+} 
+ #vbutton2 {
+  left: -45%;  
+} 
+ #vbutton3 {
+  left: -5%;  
+}
+.video2{
+ margin-left: -8%;
+ /* margin-top: 2%; */
+  width:100%;
+  position: relative;
+  z-index: 9;
 }
 }

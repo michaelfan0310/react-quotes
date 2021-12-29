@@ -39,7 +39,7 @@ function VideoRoom2(){
         <div className="dictionary2">
         <div className="card2">        
 
-       <video controls autoPlay loop muted className="video4" 
+       <video controls autoPlay loop muted className="video1900" 
            src={video} type="video/mp4"  />          
          <source src="movie.ogg" type="video/ogg">
         </source>
