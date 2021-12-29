@@ -106,10 +106,10 @@ img {
 } 
 #button2{
   position: relative;
-  z-index: 2;
+  z-index: 9;
   color: rgba(255, 255, 255, 0.342);
   left: -25%;
-   top: 7%;
+   top: -8%;
 }
 
 @media only screen and (max-width: 880px){
