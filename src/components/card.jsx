@@ -3,6 +3,9 @@ import React, {useState} from "react";
 import Avatar from "./Avatar";
 import Detail from "./Detail";
 import './card.css';
+import $ from "jquery";
+import VideoRoom from "./VideoRoom";
+// import $ from 'jquery';
 
 function Card(props){
     const quoteOriginal=props.quote;
@@ -19,22 +22,32 @@ function Card(props){
     function switchQuote(){
         const quoteNew=props.quote2;
         setToggle(!toggle);
-        { if (!toggle){
-        setQuote(quoteNew);  }
-    else if(toggle) {setQuote(quoteOriginal); }}      
+         if (!toggle){
+        setQuote(quoteNew);  
+    $('.info').css('color','#998CEB');}
+    else 
+     {setQuote(quoteOriginal); 
+        $('.info').css('color','#1e81b0');
+    }
+      
     }
     
     function switchCard(){
         
-        const quoteAdd2=props.quote4;
+      const quoteAdd2=props.quote4;
         setToggle(!toggle);
 
-        if(!toggle){
+        if(!toggle){        
         setQuote(quoteAdd);
-        // $('.bottom').css('color','red');
+          $('.info').css('color','#116530'); 
+          
+
     }
-        else{setQuote(quoteAdd2);} 
-         
+        else{            
+            setQuote(quoteAdd2);
+            $('.info').css('color','#3B0000');  
+            // $('.info').css('font-weight','bold');       
+    }          
     }
 
 return (
@@ -54,16 +67,13 @@ return (
                 onClick={switchQuote}     
                 >Switch
                 </button>
-                {/* <button               
-                onClick={switchCard}     
-                >Q3
-                </button> */}
+              
             </div>
-            <div className="bottom">
+            <div className="bottom" >
               <dd >
-              <Detail
-                detailInfo={quote}
-                
+              <Detail 
+            //   style={{color:toggle?"blue":"green"}}
+                detailInfo={quote}                
                />
                </dd>           
             </div>

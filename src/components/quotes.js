@@ -33,17 +33,7 @@ const quotes=[
 
     {
     id: 4, 
-    name: "Aristotle",
-    imgURL: "https://media.istockphoto.com/photos/aristotle-sculpture-picture-id1217329715?k=20&m=1217329715&s=612x612&w=0&h=mDbQ85HdQMBYous01IJPRfywQlJa8LTf-FlvYk6nrXU=",
-    quote: "Melancholy men are of all others the most witty.",
-    quote2: "Knowing yourself is the beginning of all wisdom.",
-    quote3: "Hope is a waking dream ",
-    
-    quote4: "No great mind has ever existed without a touch of madness."
-
-},   {
-    id: 5, 
-    name: " Plato   ",
+     name: " Plato   ",
     imgURL: "https://images.gr-assets.com/authors/1393978633p5/879.jpg",
 
     quote: "I am the wisest man alive, for I know one thing, and that is that I know nothing.",
@@ -53,6 +43,17 @@ const quotes=[
     quote3: "Love is a serious mental disease.",
     
     quote4: "I'm trying to think, don't confuse me with facts."
+    
+},   
+{
+    id: 5, 
+    name: "Aristotle",
+    imgURL: "https://media.istockphoto.com/photos/aristotle-sculpture-picture-id1217329715?k=20&m=1217329715&s=612x612&w=0&h=mDbQ85HdQMBYous01IJPRfywQlJa8LTf-FlvYk6nrXU=",
+    quote: "Melancholy men are of all others the most witty.",
+    quote2: "Knowing yourself is the beginning of all wisdom.",
+    quote3: "Hope is a waking dream ",
+    
+    quote4: "No great mind has ever existed without a touch of madness." 
     
 },
  {
