@@ -22,12 +22,12 @@ function Card(props){
     function switchQuote(){
         const quoteNew=props.quote2;
         setToggle(!toggle);
-         if (!toggle){
+    if (!toggle){
         setQuote(quoteNew);  
-    $('.info').css('color','#998CEB');}
+        $('.info').css('color','#998CEB');}
     else 
-     {setQuote(quoteOriginal); 
-        $('.info').css('color','#1e81b0');
+        {setQuote(quoteOriginal); 
+        $('.info').css('color','#116530');
     }
       
     }
@@ -39,8 +39,7 @@ function Card(props){
 
         if(!toggle){        
         setQuote(quoteAdd);
-          $('.info').css('color','#116530'); 
-          
+          $('.info').css('color','#1e81b0');          
 
     }
         else{            
