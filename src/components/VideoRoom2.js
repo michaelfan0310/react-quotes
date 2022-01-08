@@ -9,15 +9,7 @@ function VideoRoom2(){
 
     const [video, setVideo]=useState(video1); 
     
-   function switchVideo(){
-  //  video2 = React.useRef(null);
-  // useEffect(() => {
-    
-  //   // video2.current = 'values';
-  //   video2.load();
-  //   console.log(video.current);
-     
-  // }, []);
+   function switchVideo(){ 
        
      setVideo(video2); 
 

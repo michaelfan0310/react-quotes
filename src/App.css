@@ -23,9 +23,9 @@ body {
 .card2 {
   border-radius: 25px;
   position: relative;
-  padding: 35px 15px;
+  padding: 25px 15px;
   background-color: #00cecb00;
-  margin: 30px 0 30px 0;
+  margin: 50px 0;
   height: 200px;
   box-shadow: 0 2px 6px rgba(238, 232, 232, 0.966);
   /* text-align: left;  */
@@ -51,6 +51,7 @@ video, .video2{
   position: relative;
   z-index: 9;
 }
+
 .video1900{
   margin-top: -16px;
  padding-left: -20%;
@@ -104,15 +105,29 @@ img {
   left: -25%;
    top: 7%;
 } 
-#button2{
+.button2{
   position: relative;
   z-index: 9;
   color: rgba(255, 255, 255, 0.342);
   left: -25%;
    top: -8%;
 }
+.button3{
+  position: relative;
+  z-index: 9;
+  color: rgba(255, 255, 255, 0.842);
+  left: -25%;
+  top: 208%;
+}
+.button4{
+  position: relative;
+  z-index: 9;
+  color: rgba(255, 255, 255, 0.842);
+  left: -25%;
+  top: 18%;
+}
 
-@media only screen and (max-width: 880px){
+@media only screen and (max-width: 680px){
 
 body {
   font-family: sans-serif;
@@ -123,32 +138,13 @@ body {
   text-align: center;
 }
 
-.card {
-  border-radius: 20px;
-  position: relative;
-  padding: 20px 0px;
-  background-color: #81ecec;
-  margin: 20px 0;
-  height: 180px;
-  box-shadow: 0 2px 6px rgba(238, 232, 232, 0.966);
-  text-align: start; 
-  max-width: 280px;
-  min-width: 280px;
-}
-.dictionary {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0.5%  0.5%;
-  max-width: 80%;  
-  float: left;
-}
+
  .card2 {
-  border-radius: 20px;
+  border-radius: 16px;
   position: relative;
-  padding: 20px 0px;
+  padding: 16px 0px;
   background-color: #282729f3;
-  margin: 20px 0 20px 0;
+  margin: 16px 0;
   height: 180px;
   box-shadow: 0 2px 6px rgba(238, 232, 232, 0.966);
   /* text-align: left;  */
