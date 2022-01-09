@@ -16,6 +16,7 @@ function VideoRoom9(){
         
 
        <video controls autoPlay loop muted 
+       className="vidOnceWest" 
          src={video} type="video/mp4" />
          
          <source src="movie.ogg" type="video/ogg">
@@ -29,7 +30,8 @@ function VideoRoom9(){
         </div>
         </div>}
         <div>
-        { shift && <Card1 
+        { shift && 
+        <Card1 
              name={quotes[0].name} 
              img={quotes[0].imgURL}
              quote={quotes[0].quote} />}

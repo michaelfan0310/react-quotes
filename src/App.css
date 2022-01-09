@@ -41,7 +41,11 @@ video, .video2{
   width:100%;
   position: relative;
   z-index: 9;
+  left: -2%;
 }
+/* .video2{
+  left: 5%;
+} */
 .video3{
   margin-top: -16px;
   margin-bottom: 20px;
@@ -50,6 +54,7 @@ video, .video2{
   width:100%;
   position: relative;
   z-index: 9;
+  left: -2%;
 }
 
 .video1900{
@@ -112,13 +117,13 @@ img {
   left: -25%;
    top: -8%;
 }
-.button3{
+/* .button3{
   position: relative;
   z-index: 9;
   color: rgba(255, 255, 255, 0.842);
-  left: -25%;
-  top: 208%;
-}
+   left: -280%; 
+   top: 50%;
+} */
 .button4{
   position: relative;
   z-index: 9;
@@ -126,13 +131,17 @@ img {
   left: -25%;
   top: 18%;
 }
+.vidOnceWest{
+  top:15%;
+  left: -5%;
+}
 
-@media only screen and (max-width: 680px){
+@media only screen and (max-width: 880px){
 
 body {
   font-family: sans-serif;
   margin: 0 auto;
-  padding: 20px;  
+  padding: 10px;  
   background-image: url("./images/dario.jpg");
   background-color: rgba(27, 27, 27, 0.863);
   text-align: center;
@@ -142,9 +151,9 @@ body {
  .card2 {
   border-radius: 16px;
   position: relative;
-  padding: 16px 0px;
+  padding: 10px 0px;
   background-color: #282729f3;
-  margin: 16px 0;
+  margin: 10px 0;
   height: 180px;
   box-shadow: 0 2px 6px rgba(238, 232, 232, 0.966);
   /* text-align: left;  */
@@ -155,8 +164,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0.5% 0.5%;
-  max-width: 80%;  
+  margin: 0.2% 0.2%;
+  max-width: 70%;  
   float: left;
 }
 .video1900{
@@ -186,5 +195,12 @@ body {
   width:100%;
   position: relative;
   z-index: 9;
+}
+.button3{
+  position: relative;
+  z-index: 9;
+  color: rgba(255, 255, 255, 0.842);
+  left: -25%;
+   top: -8%;
 }
 }
