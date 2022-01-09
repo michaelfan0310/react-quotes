@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-quotes/static/css/main.c8f445de.css",
-    "main.js": "/react-quotes/static/js/main.133887b7.js",
+    "main.css": "/react-quotes/static/css/main.b61008a1.css",
+    "main.js": "/react-quotes/static/js/main.275020ab.js",
     "static/media/OutAf.mp4": "/react-quotes/static/media/OutAf.bf5d19485ddb0af5dd1d.mp4",
     "static/media/Teheran.mp4": "/react-quotes/static/media/Teheran.edf5592b748363c6d05c.mp4",
     "static/media/19003.mp4": "/react-quotes/static/media/19003.b336ee065071f01e8431.mp4",
@@ -13,14 +13,15 @@
     "static/media/OnceInWest.mp4": "/react-quotes/static/media/OnceInWest.42003561ef339020e651.mp4",
     "static/media/Michael.mp4": "/react-quotes/static/media/Michael.9280869ae5d5960eb8a5.mp4",
     "static/media/1900.mp4": "/react-quotes/static/media/1900.e854f64db1023a6b7d4c.mp4",
+    "static/media/AngryRiver3.mp4": "/react-quotes/static/media/AngryRiver3.03fe015a07d38fde237e.mp4",
     "static/media/dario.jpg": "/react-quotes/static/media/dario.aa521122a43c94b4c1b5.jpg",
     "static/media/michael.png": "/react-quotes/static/media/michael.3efdc0f02031b02cc25b.png",
     "index.html": "/react-quotes/index.html",
-    "main.c8f445de.css.map": "/react-quotes/static/css/main.c8f445de.css.map",
-    "main.133887b7.js.map": "/react-quotes/static/js/main.133887b7.js.map"
+    "main.b61008a1.css.map": "/react-quotes/static/css/main.b61008a1.css.map",
+    "main.275020ab.js.map": "/react-quotes/static/js/main.275020ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8f445de.css",
-    "static/js/main.133887b7.js"
+    "static/css/main.b61008a1.css",
+    "static/js/main.275020ab.js"
   ]
 }
