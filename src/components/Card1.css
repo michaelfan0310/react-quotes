@@ -26,7 +26,7 @@
   box-shadow: 0 2px 6px rgba(238, 232, 232, 0.897);
   text-align: start; 
   max-width: 400px;
-  min-width: 400px;
+  min-width: 300px;
 }
 .shift {
   position: relative;
@@ -121,8 +121,8 @@ button {
    top: 67%;    
 }
 .c1button{
-  top: 35%;
-  left: 55%;
+  top: 55%;
+  left: -35%;
 }
 
 

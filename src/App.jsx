@@ -16,7 +16,7 @@ import ButtonWrapper from './components/ButtonWrapper.jsx';
 
 function createCard(quote){
     return (
-        <Card
+       [ <Card
         key ={quote.id}
         name= {quote.name}
         img={quote.imgURL}
@@ -25,7 +25,8 @@ function createCard(quote){
         quote3={quote.quote3} 
         quote4={quote.quote4} 
         // onClick={}
-        />
+        />,
+]
     );
 }
 function App() {

@@ -1,6 +1,10 @@
 import React, {useState} from "react";
 import Card1 from "./Card1.js";
 import quotes from "./quotes2.js";
+import quote from "./quotes";
+
+
+
 
 import video from '../Video/OnceInWest.mp4';
 
@@ -21,10 +25,9 @@ function VideoRoom9(){
          
          <source src="movie.ogg" type="video/ogg">
         </source>
-       <button className="button4"
-        onClick={ShiftCard}
-         
-        >Card</button> 
+       <button className="vbutton4"
+        onClick={ShiftCard}         
+        >Switch</button> 
        
        
         </div>
