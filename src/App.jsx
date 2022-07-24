@@ -11,8 +11,8 @@ import VideoRoom4 from "./components/VideoRoom4.js";
 import VideoRoom5 from "./components/VideoRoom5.js";
 import VideoRoom6 from "./components/VideoRoom6.js";
 import Card1 from "./components/Card1.js";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import ButtonWrapper from './components/ButtonWrapper.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ButtonWrapper from './components/ButtonWrapper.jsx';
 
 function createCard(quote){
     return (
@@ -53,7 +53,7 @@ function App() {
       <div className="pointer">      
       <h5> <a href="https://michaelfan0310.github.io/react-kitchen/">React-Kitchen</a></h5>
       </div>
-      {/* <ButtonWrapper /> */}
+      <ButtonWrapper />
 </div>
   );
 }

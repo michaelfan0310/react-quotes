@@ -1,7 +1,8 @@
+// eslint-disable-next-line
 import { exp } from "prelude-ls";
 import React, {useState} from "react";
 import Avatar from "./Avatar";
-import Detail from "./Detail";
+// import Detail from "./Detail";
 import './Card.css';
 import $ from "jquery";
 import VideoRoom9 from "./VideoRoom9";
@@ -9,6 +10,7 @@ import VideoRoom9 from "./VideoRoom9";
 
 function Card(props){
     const quoteOriginal=props.quote;
+    // eslint-disable-next-line
     const quoteAdd=props.quote3;
     const [toggle, setToggle]=useState(false);
     const [quote, setQuote]=useState(quoteOriginal);
@@ -44,28 +46,40 @@ return (
 
     <div>
     {!iscard &&   <dl className="dictionary">
-        <div className="card">
+        <div className="cardback">
             <div className="top">
             <dt>
-                <h2 className="name">{props.name}</h2></dt>
-                <Avatar img={props.img}/>
-                <button className="button3"           
+                <h2 className="name">{props.name}</h2>
+                </dt>
+                <Avatar img={props.img} />
+
+               <button className="sbutton3"           
                 onClick={switchCard}       
                 >S2
-                </button>
+                </button>    
 
-                <button               
+
+                <button             
                 onClick={switchQuote}     
                 >Switch
-                </button>
+                </button>             
+                
+
+                
               
             </div>
             <div className="bottom" >
-              <dd >
-              <Detail 
+              <dd className="info">
+              {/* <div className="info" > */}
+            
+        {quote}         
+             
+                      
+            {/* </div> */}
+              {/* <Detail 
               style={{color:"blue"}}
                 detailInfo={quote}                
-               />
+               /> */}
                </dd>           
             </div>
         </div>
