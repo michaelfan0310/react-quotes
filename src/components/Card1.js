@@ -56,14 +56,7 @@ return (
                <button className="sbutton3"           
                 onClick={switchCard}       
                 >Switch
-                </button>    
-
-
-                         
-                
-
-                
-              
+                </button>            
             </div>
             <div className="bottom" >
               <dd className="info">
