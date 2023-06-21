@@ -29,7 +29,9 @@ function createCard(quote){
 ]
     );
 }
-function App() {
+class App extends React.Component{
+
+  render(){
     console.log(quote);
   return(<div>
     <div>
@@ -58,5 +60,5 @@ function App() {
 </div>
   );
 }
-
+}
 export default App;
